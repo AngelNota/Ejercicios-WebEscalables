@@ -1,0 +1,16 @@
+
+<div class="Lista">
+    <h2>Lista de Productos</h2>
+    <ul>
+      <li *ngFor="let product of products" 
+          (click)="onSelectProduct(product)"
+          [ngClass]="{'on-sale': product.onSale}" style="cursor: pointer;">
+        {{ product.name }} - ${{ product.price }}
+        <span *ngIf="product.onSale" class="sale-badge">¡En oferta!</span>
+      </li>
+    </ul>
+</div>
+
+
+
+<app-product-detail *ngIf="selectedProduct" [product]="selectedProduct"></app-product-detail>

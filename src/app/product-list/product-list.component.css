@@ -1,0 +1,27 @@
+.on-sale {
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .sale-badge {
+    background-color: yellow;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+.Lista{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
